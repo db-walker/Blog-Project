@@ -216,36 +216,132 @@ a {
 
 }
 
-@media only screen and (min-width: 426px) and (max-width:1024px) {
+@media only screen and (min-width: 426px) and (max-width:1440px) {
     .imageOne {
-    height:300px;
-    width:260px;
+    height:80%;
+    width:80%;
+    padding:20px;
   }
 
   .imageTwo {
-    height:260px;
-    width: 260px;
+    height:80%;
+    width: 80%;
+    padding: 20px;
   }
 
   h1 {
     display: inline-flex;
-    font-size:60px;
+    font-size:80px;
     margin: auto;
+    padding: 25px;
   }
 
   h3 {
     display: flex;
     margin: auto;
-    font-size: 15px;
+    font-size: 35px;
   }
 
   #search-bar {
-    height:16px;
-    width: 70px;
+    height: 45px;
+    width: 200px;
+    border: 2px solid blue;
+    border-radius: 30px;
+    box-shadow: 2px 4px 6px;
+  }
+  
+  button {
+    width: 100px;
+    height:50px;
+    font: 25px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 3px solid blue;
+    border-radius: 20px;
+    box-shadow: 2px 4px 6px;
+  }
+
+  p {
+    font: 30px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 50px;
   }
 
 }
 
-@media only screen and (min-width: 1440px) and (max-width:2560px) {
+@media only screen and (min-width: 1441px) and (max-width:2560px) {
+  .container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-auto-columns: auto;
+    grid-auto-rows: 100px repeat(2,1fr) auto;
+    gap: 10px 10px;
+    grid-template-areas: 
+    "hd hd hd hd"
+    "sd main main feat"
+    "sd main main feat"
+    "sd ft ft feat"
+  }
+
+  h1 {
+    margin:50px;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: overline underline;
+  }
+  
+  h3 {
+    margin: auto;
+    text-align: center;
+    font: 50px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  #search-bar {
+    height: 45px;
+    width: 300px;
+    border: 2px solid blue;
+    border-radius: 30px;
+    box-shadow: 2px 4px 6px;
+  }
+  
+  button {
+    width: 200px;
+    height:50px;
+    font: 25px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 3px solid blue;
+    border-radius: 20px;
+    box-shadow: 2px 4px 6px;
+  }
+
+  .nav {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .extra {
+    height:fit-content;
+    width:fit-content;
+    font: 50px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  img{
+    height: 200px;
+    width: 200px;
+  }
+
+  .imageOne {
+    height: 80%;
+    width: 80%;
+    padding: 40px;
+  }
+
+  .imageTwo {
+    height: 80%;
+    width: 80%;
+    padding: 40px;
+  }
+
+  p {
+    font: 40px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 50px;
+  }
   
 }
