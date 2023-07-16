@@ -38,17 +38,21 @@ button {
 
 h1 {
   margin: 10px;
-  font:40px Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-decoration: overline underline;
 }
 
 h2 {
+  font-size: 35px;
+  margin: auto;
   text-align: center;
   text-shadow: 0 4px 11px;
 }
 
 h3 {
   margin: auto;
+  text-align: center;
   font: 20px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -92,14 +96,15 @@ h3 {
 .selfie {
   height: 120px;
   width: 110px;
-  margin: auto;
+  margin: 2px auto 8px;
+  padding: 2px;
   border-radius: 60px;
   box-shadow: 2px 4px 6px;
 }
 
 .bio {
   display: flex;
-  margin: auto;
+  margin: 2px auto;
   padding: 2px;
   width: 70%;
   justify-content: center;
