@@ -38,19 +38,18 @@ button {
 
 h1 {
   margin: 10px;
-  font-size: 40px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font:40px Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-decoration: overline underline;
 }
 
 h2 {
   text-align: center;
-  font-style: italic;
   text-shadow: 0 4px 11px;
 }
 
 h3 {
   margin: auto;
+  font: 20px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .title {
@@ -143,8 +142,7 @@ figure figcaption {
 }
 
 p {
-  font-size: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font:20px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   padding: 30px;
   margin: 20px;
@@ -160,7 +158,7 @@ p {
 }
 
 .questions {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif bold;
   font-weight: bold;
   text-decoration: underline olivedrab;
 }
@@ -218,6 +216,5 @@ p {
 
 a {
   text-decoration: none;
-  font-size: larger;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font:larger 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

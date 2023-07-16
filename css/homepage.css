@@ -32,6 +32,7 @@ h1 {
 h3 {
   margin: auto;
   text-align: center;
+  font: 20px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #search-bar {
