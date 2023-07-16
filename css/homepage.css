@@ -1,150 +1,150 @@
-html{
+html {
   height: 100%;
   width: 100%;
-  background:linear-gradient(black,white,black);
-  }
-.container{
+  background: linear-gradient(black,white,black);
+}
+
+.container {
   height: 100%;
   width: 100%;
   display: grid;
   grid-auto-columns: auto;
   grid-auto-rows: 75px repeat(2,1fr) auto;
   gap: 5px 5px;
-  grid-template-areas:
-    "hd hd hd hd"
-    "sd main main feat"
-    "sd main main feat"
-    "sd ft ft feat"
-  }
-
-  #intro{
-    display: grid;
-    grid-auto-flow: column;
-  }
-
-  h1{
-    margin: 10px;
-    font-size: 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-decoration:overline underline;
-  }
-
-  h3{
-    margin: auto;
-    text-align: center;
-  }
-
-  #search-bar{
-    height: 16px;
-    width: 100px;
-    border: 2px solid blue;
-    border-radius: 10px;
-    box-shadow: 2px 4px 6px;
+  grid-template-areas: "hd hd hd hd"
+  "sd main main feat"
+  "sd main main feat"
+  "sd ft ft feat"
 }
 
-button{
+#intro {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: overline underline;
+}
+
+h3 {
+  margin: auto;
+  text-align: center;
+}
+
+#search-bar {
+  height: 16px;
+  width: 100px;
   border: 2px solid blue;
   border-radius: 10px;
   box-shadow: 2px 4px 6px;
 }
 
-.title{
-  border:2px solid black;
+button {
+  border: 2px solid blue;
+  border-radius: 10px;
+  box-shadow: 2px 4px 6px;
+}
+
+.title {
+  border: 2px solid black;
   border-radius: 10px;
   background-color: white;
   box-shadow: inset 0 0 10px;
   grid-area: hd;
 }
-  
-.nav{
+
+.nav {
   display: grid;
   height: fit-content;
-  border:2px solid black;
+  border: 2px solid black;
   border-radius: 10px;
   background-color: white;
   box-shadow: inset 0 4px 8px;
-  align-content:space-evenly;
+  align-content: space-evenly;
   grid-area: sd;
-  }
- 
-.main{ 
-  display:grid;
+}
+
+.main {
+  display: grid;
   grid-auto-flow: row;
   padding: 10px;
-  border:2px solid black;
+  border: 2px solid black;
   border-radius: 10px;
   background-color: white;
   box-shadow: inset 0 4px 8px;
   grid-area: main;
-  }
+}
 
-.imageOne{
+.imageOne {
   height: 400px;
   width: 325px;
-  padding:10px;
+  padding: 10px;
   margin: auto;
   border: 2px solid black;
   border-radius: 5px;
   box-shadow: inset 0 4px 8px;
-  }
+}
 
-.imageTwo{
+.imageTwo {
   height: 325px;
   width: 325px;
-  padding:10px;
+  padding: 10px;
   margin: auto;
   border: 2px solid black;
   border-radius: 5px;
   box-shadow: inset 0 4px 8px;
-  }
+}
 
-  p{
-    font-size: 20px;
-    text-align: center;
-    padding: 20px;
-    margin:20px;
-    border: 4px groove rgb(111, 255, 0);
-    border-radius: 30px 5px 30px 5px;
-  }
+p {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border: 4px groove rgb(111, 255, 0);
+  border-radius: 30px 5px 30px 5px;
+}
 
-  ul{
-    list-style-type: none;
-    display: grid;
-    padding: 10px;
-    justify-content: center;
-  }
+ul {
+  list-style-type: none;
+  display: grid;
+  padding: 10px;
+  justify-content: center;
+}
 
-.extra{
+.extra {
   height: fit-content;
-  width:90px;
-  border:2px solid black;
+  width: 90px;
+  border: 2px solid black;
   border-radius: 10px;
   background-color: white;
   box-shadow: inset 0 4px 8px;
   grid-area: feat;
 }
 
-#add{
+#add {
   display: grid;
-  border:2px solid black;
+  border: 2px solid black;
   align-content: first baseline;
 }
 
-.credit{
+.credit {
   display: grid;
   height: 100%;
-  border:2px solid black;
+  border: 2px solid black;
   border-radius: 10px;
   background-color: white;
   box-shadow: inset 0 4px 8px;
   grid-area: ft;
-  }
+}
 
-  #bottom{
-    display: grid;
-    grid-auto-flow: column;
-  }
-  
-  a{
-    text-decoration: none;
-  }
+#bottom {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+a {
+  text-decoration: none;
+}
