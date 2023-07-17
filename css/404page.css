@@ -24,3 +24,54 @@ a {
     display: flex;
     flex-wrap: nowrap;
 }
+
+@media only screen and (max-width:426px) {
+    h1 {
+        text-align: center;  
+    }
+
+    p {
+        text-align: center;
+    }
+
+    img {
+        height: 80%;
+        width: 80%;
+    }
+
+}
+
+@media only screen and (min-width: 427px) and (max-width:1025px) {
+    h1 {
+        text-align: center;  
+    }
+
+    p {
+        text-align: center;
+    }
+
+    img {
+        height: 60%;
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1026px) and (max-width:2560px) {
+    h1 {
+        text-align: center;  
+    }
+
+    p {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    img {
+        height: 40%;
+        width: 40%;
+    }
+
+    a {
+        font-size: 25px;
+    }
+}
