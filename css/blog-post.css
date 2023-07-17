@@ -11,7 +11,8 @@ html {
   grid-auto-columns: 100px 1fr 300px;
   grid-auto-rows: 75px repeat(2,1fr) auto;
   gap: 5px 5px;
-  grid-template-areas: "hd hd hd hd"
+  grid-template-areas: 
+    "hd hd hd hd"
     "sd main main main"
     "sd main main main"
     "sd ft ft ft"
@@ -155,11 +156,9 @@ p {
   border-radius: 30px 5px 30px 5px;
 }
 
-.logo {
+#side {
+  display: flex;
   list-style-type: none;
-  display: grid;
-  padding: 10px;
-  justify-content: center;
 }
 
 .questions {
@@ -222,4 +221,248 @@ p {
 a {
   text-decoration: none;
   font:larger 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media only screen and (max-width:426px) {
+
+  .container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-auto-columns: 90px;
+    grid-auto-rows: 80px auto;
+    gap: 5px 5px;
+    grid-template-areas: 
+    "hd hd hd hd"
+    "sd sd sd sd"
+    "main main main main"
+    "main main main main"
+    "ft ft ft ft"
+  }
+
+  .nav {
+    display:flex;
+    flex-direction: row;
+    height: auto;
+    border: 8px groove black;
+  }
+
+  ul {
+    display:flex;
+    flex-direction: row;
+  }
+
+  .imageOne {
+    height:300px;
+    width:260px;
+  }
+
+  .imageTwo {
+    height:260px;
+    width: 260px;
+  }
+
+  h1 {
+    display: inline-flex;
+    font-size:20px;
+    margin: auto;
+  }
+
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  h3 {
+    display: flex;
+    margin: auto;
+    font-size: 15px;
+  }
+
+  .questions {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #search-bar {
+    height:16px;
+    width: 70px;
+  }
+
+}
+
+@media only screen and (min-width: 427px) and (max-width:1025px) {
+  .container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-auto-columns: 150px auto;
+    grid-auto-rows: 75px repeat(2,1fr) auto;
+    gap: 5px 5px;
+    grid-template-areas: 
+      "hd hd hd hd"
+      "sd main main main"
+      "sd main main main"
+      "sd ft ft ft"
+  } 
+  
+  .imageOne {
+    height:80%;
+    width:80%;
+    padding:20px;
+  }
+
+  .imageTwo {
+    height:80%;
+    width: 80%;
+    padding: 20px;
+  }
+
+  h1 {
+    display: inline-flex;
+    font-size:50px;
+    margin: auto;
+    padding: 25px;
+  }
+
+  h3 {
+    display: flex;
+    margin: auto;
+    font-size: 25px;
+  }
+
+  #search-bar {
+    height: 27px;
+    width: 150px;
+    border: 2px solid blue;
+    border-radius: 30px;
+    box-shadow: 2px 4px 6px;
+  }
+  
+  button {
+    width: 100px;
+    height:35px;
+    font: 24px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 3px solid blue;
+    border-radius: 20px;
+    box-shadow: 2px 4px 6px;
+  }
+
+  p {
+    font: 30px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 50px;
+  }
+
+  .nav {
+    height: fit-content;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (min-width: 1026px) and (max-width:2560px) {
+  .container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-auto-columns: auto;
+    grid-auto-rows: 100px repeat(2,1fr) auto;
+    gap: 10px 10px;
+    grid-template-areas: 
+    "hd hd hd hd"
+    "sd main main main"
+    "sd main main main"
+    "sd ft ft ft"
+  }
+
+  h1 {
+    margin:50px;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: overline underline;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+  
+  h3 {
+    margin: auto;
+    text-align: center;
+    font: 40px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  #search-bar {
+    height: 45px;
+    width: 300px;
+    border: 2px solid blue;
+    border-radius: 30px;
+    box-shadow: 2px 4px 6px;
+  }
+  
+  button {
+    width: 200px;
+    height:50px;
+    font: 25px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 3px solid blue;
+    border-radius: 30px;
+    box-shadow: 2px 4px 6px;
+  }
+
+  .nav {
+    height: fit-content;
+    width: 225px;
+  }
+
+  img{
+    height: 150px;
+    width: 150px;
+  }
+
+  .imageOne {
+    height: 80%;
+    width: 80%;
+    padding: 40px;
+  }
+
+  .imageTwo {
+    height: 80%;
+    width: 80%;
+    padding: 40px;
+  }
+
+  p {
+    font: 40px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 50px;
+  }
+  
+  .selfie {
+    height: 260px;
+    width: 240px;
+    margin: 20px auto 20px;
+    padding: 4px;
+    border-radius:160px;
+  }
+  
+  .bio {
+    padding: 5px;
+    width: 60%;
+    font-size: 30px;
+  }
+  
+  figure figcaption {
+    font-size: 30px;
+    position: relative;
+  }
+
+  .questions {
+   font-size: 40px;
+  }
+
+  a {
+    font-size: 40px;
+  }
+  
 }
